@@ -3,6 +3,7 @@
 - vscode: 1.63.2
 - node: 16.13.1
 - MongoDB: 5.0.5
+- bootstrap: 5.1.3
 - 카카오 맵 api
 ## 실행 방법
 - git clone ~~ . 깃을 받아옵니다.
