@@ -4,7 +4,6 @@ const getImage = (req, res) => {
     try {
         const dataimg = img.split(',');
         const type = dataimg[1].split('.')[1];
-        console.log(type);
         fs.readFile('upload/'+dataimg[0]+"/"+dataimg[1],(err,data)=> {
             res.status(200).type(type).send(data);
         })

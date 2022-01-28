@@ -29,4 +29,13 @@ const search = async (req, res) => {
         res.status(400).json({"message":"키워드를 입력해주세요"});
     }
 }
-module.exports = { create, view, search };
+
+const list = async (req, res) => {
+    try {
+        const data = await service.list();
+        res.status(200).json(data)
+    } catch( error ) {
+        res.status(400).json({"message":"list fail"});
+    }
+}
+module.exports = { create, view, search, list };

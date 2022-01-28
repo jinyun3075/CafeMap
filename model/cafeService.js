@@ -17,4 +17,15 @@ const view = (id) => {
 const search = (name) => {
     return cafeSchema.find({name: new RegExp(name)}).sort({name:'asc'});
 }
-module.exports = { create, view, search};
+
+const list = async () => {
+    const data = await cafeSchema.find();
+    const results = [];
+    for (const json of data) {
+        const result = json.toJSON();
+        delete result._id;
+        results.push(result);
+    }
+    return results;
+}
+module.exports = { create, view, search, list};
