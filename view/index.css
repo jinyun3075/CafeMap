@@ -1,0 +1,40 @@
+.search {
+    position: relative;
+    width: 30rem;
+    height: 40rem;
+}
+.cont {
+    position: relative;
+}
+.input-group .mb-3 {
+    position: absolute;
+}
+#list-group {
+    display: none;
+    position: absolute;
+    overflow: auto;
+    left: 0;
+    right: 0;
+    height: 10rem;
+}
+#list-group.on{
+    display: block;
+}
+#add-cafe {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.img-box {
+  display: block;
+  width: 100%;
+  height: 204px;
+  background: #F2F2F2;
+  background-size: cover;
+  border: 0.5px solid #DBDBDB;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+#img-b {
+  display: none;
+}
