@@ -23,6 +23,8 @@
 - /img/uploads (post) : 이미지 1~4개 업로드
 
 ## 구조
+![image](https://user-images.githubusercontent.com/64072136/151556396-d28e68da-1892-4fa0-996a-8f529d1be6a4.png)
+
 
 ## 주요 기능
 - 카페 등록
