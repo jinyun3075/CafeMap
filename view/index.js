@@ -46,7 +46,7 @@ const createMarker = async () => {
                             <div class="carousel-indicators">
                                 `+ slide +`
                             </div>
-                            <div class="carousel-inner" style="height: 15rem;">
+                            <div class="carousel-inner" style="height: 18rem;">
                                 `+ img + `
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -171,7 +171,7 @@ search.onkeyup = async (e) => {
                     <div class="carousel-indicators">
                         `+ slide +`
                     </div>
-                    <div class="carousel-inner" style="height: 15rem;">
+                    <div class="carousel-inner" style="height: 18rem;">
                         `+ img + `
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
