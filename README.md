@@ -1,4 +1,6 @@
 # CafeMap
+![image](https://user-images.githubusercontent.com/64072136/151642710-52376ba5-2ce6-4352-9389-6683fd46be66.png)
+
 ## 사용환경
 - vscode: 1.63.2
 - node: 16.13.1
